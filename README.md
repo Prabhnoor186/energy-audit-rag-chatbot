@@ -16,9 +16,13 @@ A Retrieval-Augmented Generation (RAG) chatbot for querying energy audit reports
 
 ## Demo
 
-<video src="https://github.com/Prabhnoor186/energy-audit-rag-chatbot/raw/main/Energy_Audit_Chatbot_demo.mp4.mp4" controls width="700">
-  Your browser doesn't support embedded video — <a href="https://github.com/Prabhnoor186/energy-audit-rag-chatbot/raw/main/Energy_Audit_Chatbot_demo.mp4.mp4">watch it here</a>.
-</video>
+
+https://github.com/user-attachments/assets/b0699fe1-b600-49de-b34e-3145d5254463
+
+
+
+
+
 
 Example questions:
 
