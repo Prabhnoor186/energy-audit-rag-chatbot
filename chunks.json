@@ -1,0 +1,347 @@
+[
+  {
+    "source": "compressor_audit",
+    "section": "**1. Objective**",
+    "text": "The objective of this internship energy audit is to systematically\nmonitor and analyse the energy performance of Air Compressor No. 2\nGA30VSD (Atlas Copco). over a 21-day period. The study focuses on:\n\n-   Monitoring daily load factor, current draw, delivery pressure, and\n    discharge temperature over 21 consecutive days.\n\n-   Calculating the compressor\\'s Specific Power (kW/m\u00b3/min) using\n    nameplate data and benchmarking against BEE standards.\n\n-   Quantifying the energy and cost saving potential if performance is\n    below the BEE benchmark.\n\n-   Reviewing the plant\\'s electricity bills for power factor and\n    maximum demand performance.\n\n-   Recommending practical, low-investment corrective actions to improve\n    compressor efficiency and reduce energy costs."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "2. Equipment Description",
+    "text": "-----------------------------------------------------------------------\n  **Parameter**                **Details**\n  ---------------------------- ------------------------------------------\n  **Equipment Name**           Air Compressor No. 1\n\n  **Make / Model**             Atlas Copco GA30VSD\n\n  **Type**                     Variable Speed Drive (VSD) Oil-Injected\n                               Rotary Screw Compressor\n\n  **Motor Rated Power**        30 kW (40 HP)\n\n  **FAD --- Free Air Delivery  3.10 m\u00b3/min (51.7 l/s)\n  (at 7 bar)**                 \n\n  **Rated Delivery Pressure**  6.7 kg/cm\u00b2 (\u22487 bar) --- observed constant\n\n  **BEE Benchmark --- Specific 4.5 -- 5.0 kW/m\u00b3/min\n  Power**                      \n\n                               \n\n  **Audit Period**             1 June 2026 -- 21 June 2026 (21\n                               consecutive days)\n  -----------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "3. Scope of Audit",
+    "text": "This audit covers the following areas:\n\n-   Air Compressor No. 2 GA30VSD (Atlas Copco) --- load factor\n    monitoring, specific power calculation, and benchmarking against BEE\n    standards.\n\n-   Electricity bill review --- power factor, maximum demand, and unit\n    cost analysis.\n\nThe audit does not cover other compressors, process-side pneumatic\nsystems, or compressed air distribution network leak quantification,\nwhich are recommended as scope for a follow-on detailed audit."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "4. Methodology",
+    "text": "The audit followed a structured data-collection and analysis approach\nbased on BEE (Bureau of Energy Efficiency) guidelines:\n\n-   Daily compressor log sheet readings were recorded for 21 consecutive\n    days from in-plant operator log books.\n\n-   Parameters recorded each day: average load %, average current\n    (amps), delivery pressure (kg/cm\u00b2), and average discharge\n    temperature (\u00b0C).\n\n-   Daily averages were computed from hourly readings taken by the plant\n    operator each shift.\n\n-   Nameplate data obtained: Motor Rated Power = 30 kW (40 HP); FAD at 7\n    bar = 3.10 m\u00b3/min (Atlas Copco GA30VSD specification).\n\n-   Specific Power computed as: Actual Power (kW) = Rated kW \u00d7 (Avg\n    Load% \u00f7 100); Specific Power = Actual Power \u00f7 FAD (m\u00b3/min).\n\n-   Result benchmarked against BEE standard: 4.5--5.0 kW/m\u00b3/min = good\n    performance; above 5.5 kW/m\u00b3/min = significant efficiency gap.\n\n-   Annual saving estimated at 8,000 operating hours/year (24 hr/day \u00d7\n    330 days/year) and unit rate from electricity bill."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.1 Daily Operating Data --- 21-Day Log (June 2026) (part 1)",
+    "text": "-------------------------------------------------------------------------------\n  **Day**       **Avg     **Avg     **Delivery   **Discharge   **Remarks**\n                Load %**  Amps**    Pr.          Temp (\u00b0C)**   \n                                    (kg/cm\u00b2)**                 \n  ------------- --------- --------- ------------ ------------- ------------------\n  Day 1         78        104       6.7          98            \n\n  Day 2         83        109       6.7          95            \n\n  Day 3         77        101       6.7          97            \n\n  Day 4         75        99        6.7          93            \n\n  Day 5         73        109       6.7          95            Power cut\n\n  Day 6         78        110       6.7          100           Blow moulding\n                                                               activity\n\n  Day 7         77        107       6.7          95            \n\n  Day 8         76        109       6.7          96            \n\n  Day 9         75        109       6.7          95            \n\n  Day 10        77        100       6.7          96            \n\n  Day 11        69        97        6.7          95            Compressor off -\n                                                               power loss\n\n  Day 12        78        110       6.7          96            \n\n  Day 13        68        98        6.7          96            \n\n  Day 14        73        89        6.7          93            \n\n  Day 15        75        106       6.7          97            \n\n  Day 16        74        107       6.7          96            \n\n  Day 17        75        102       6.7          100           \n\n  Day 18        78        95        6.7          96            \n\n  Day 19        75        102       6.7          102"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.1 Daily Operating Data --- 21-Day Log (June 2026) (part 2)",
+    "text": "Day 20        75        88        6.7          94            Power cut\n\n  Day 21        68        98        6.7          96            \n\n  **AVERAGE**   **75%**   **102 A** **6.7**      **96\u00b0C**      \n  -------------------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.2 Specific Power Calculation",
+    "text": "Specific Power (kW/m\u00b3/min) is the standard BEE metric for compressor\nefficiency --- lower is better. It measures how much power is consumed\nper unit volume of free air delivered.\n\n**Specific Power = (Rated Motor kW \u00d7 Avg Load% \u00f7 100) \u00f7 FAD (m\u00b3/min)**\n\n  ------------------------------------------------------------------------\n  **Parameter**                **Value**             **Source / Basis**\n  ---------------------------- --------------------- ---------------------\n  **Motor Rated Power**        30 kW (40 HP)         Atlas Copco GA30VSD\n                                                     nameplate\n\n  **Average Load % (21-day     75%                   From 21-day operating\n  average)**                                         log\n\n  **Estimated Power Drawn**    30 \u00d7 0.75 = 22.5 kW   Calculated\n\n  **Rated FAD (at \\~7 bar /    3.10 m\u00b3/min           Atlas Copco GA30VSD\n  6.7 kg/cm\u00b2)**                                      datasheet\n\n  **Specific Power**           **22.5 \u00f7 3.10 = 7.26  Calculated\n                               kW/m\u00b3/min**           \n\n  **BEE Benchmark**            4.5 -- 5.0 kW/m\u00b3/min  BEE Energy Audit\n                                                     Guidelines\n\n  **Gap above Benchmark (vs    **7.26 \u2212 5.0 = 2.26   Above benchmark ---\n  5.0)**                       kW/m\u00b3/min**           action required\n  ------------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.3 Energy Saving Opportunity Assessment",
+    "text": "An indicative specific power of 7.26 kW/m\u00b3/min was estimated using\naverage load factor and nameplate FAD. Actual compressor efficiency\nshould be verified using measured power consumption and airflow,\ncompared with the BEE benchmark range of 4.5--5.0 kW/m\u00b3/min. This\nindicates that the compressor may be consuming more power than expected\nfor the volume of compressed air delivered.\n\nThe difference between the calculated value and the benchmark\ncorresponds to an estimated excess power requirement of approximately\n7.0 kW under the observed operating conditions. Based on the compressor\noperating schedule of 7,920 hours per year, this excess power\ncorresponds to an annual energy consumption of approximately 55,440\nkWh/year.\n\nTherefore, the identified saving should be considered a realistic\nimprovement opportunity rather than an immediate guaranteed reduction in\nelectricity cost."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.4 Key Observations",
+    "text": "-   Air Compressor No. 1 GA30VSD (Atlas Copco) operated at an average\n    load factor of 75% over 21 days. The Variable Speed Drive (VSD)\n    design allows the motor to match speed to demand, which is more\n    efficient than fixed-speed machines at part load.\n\n-   Calculated specific power of 7.26 kW/m\u00b3/min is significantly above\n    the BEE benchmark of 4.5--5.0 kW/m\u00b3/min --- indicating that the\n    compressor is consuming more power per unit of air delivered than\n    the benchmark standard. This gap warrants investigation into root\n    causes.\n\n-   Delivery pressure remained constant at 6.7 kg/cm\u00b2 across all 21 days\n    --- indicating stable process demand. However, any excess pressure\n    above actual process needs directly raises specific power and should\n    be reviewed.\n\n-   Average discharge temperature of 96\u00b0C is within normal range. Three\n    days (Days 6, 17, and 19) recorded 100--102\u00b0C --- elevated\n    temperatures can indicate oil cooler fouling or high ambient\n    conditions and should be monitored.\n\n-   Two power cut events (Days 5 and 20) and one power loss shutdown\n    (Day 11) were recorded --- these are external events and do not\n    affect the efficiency assessment.\n\n-   Day 6 (blow moulding activity) showed higher current draw (110 A)\n    consistent with elevated compressed air demand from that process."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "5.5 Potential Root Cause Analysis",
+    "text": "The following table summarises the potential root causes associated with\nthe observations recorded during the audit period.\n\n  ---------------------------------------------------------------------------\n  **Observation**   **Possible        **Operational     **Priority**   \n                    Cause**           Impact**                         \n  ----------------- ----------------- ----------------- -------------- ------\n  Specific Power    Air leakage in    Increased         High           \n  above benchmark   distribution      compressor                       \n                    network           runtime                          \n\n  Specific Power    Choked inlet air  Higher power      High           \n  above benchmark   filter            consumption                      \n\n  Constant          Pressure setpoint Excess energy     High           \n  operating         higher than       consumption                      \n  pressure          actual process                                     \n                    requirement                                        \n\n  Elevated          Cooler fouling or Reduced           Medium         \n  discharge         poor ventilation  efficiency and                   \n  temperature                         equipment life                   \n\n  Variable current  Process demand    Normal operation  Low            \n  demand            fluctuations                                       \n  ---------------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "6. Electricity Bill Analysis",
+    "text": "Three key parameters were reviewed from the plant electricity bills:\n\n  ------------------------------------------------------------------------\n  **Parameter**         **Recorded       **Remarks / Finding**\n                        Value**          \n  --------------------- ---------------- ---------------------------------\n  **Rate per Unit       Rs. 6/kVAh       \n  (Rs./kWh)**           (billing on kVAh \n                        basis)           \n\n  **Power Factor (PF)** 0.99             Target \\> 0.95. Below 0.90 =\n                                         penalty + APFC recommendation\n\n  **Maximum Demand      2088 kVA         \n  (kVA)**               recorded         \n  ------------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "7. Summary of Findings and Improvement Opportunities (part 1)",
+    "text": "----------------------------------------------------------------------------------\n  **S.No**   **Area**        **Finding**         **Est. Saving** **Recommended\n                                                                 Action**\n  ---------- --------------- ------------------- --------------- -------------------\n  1          **Air           Calculated Specific Potential       Investigate inlet\n             Compressor No.  Power indicates     annual energy   conditions,\n             2 GA30VSD       performance above   saving          delivery pressure\n             (Atlas Copco)** benchmark range.    opportunity =   optimisation, air\n                             Investigation is    approximately   leak detection\n                             recommended to      \u20b94.43           \n                             verify compressor   lakh/year,      \n                             loading             subject to      \n                             characteristics,    validation      \n                             air leakage losses, through         \n                             inlet restrictions, detailed        \n                             pressure            measurement.    \n                             requirements, and                   \n                             control settings.                   \n                             Estimated                           \n                             improvement                         \n                             opportunity: \u20b94.43                  \n                             lakh/year."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "7. Summary of Findings and Improvement Opportunities (part 2)",
+    "text": "2          **Discharge     3 days recorded     Maintenance     Clean oil cooler;\n             Temperature**   100--102\u00b0C (Days 6, saving          check ambient\n                             17, 19) --- above                   ventilation in\n                             normal 96\u00b0C average                 compressor room\n\n  3          **Electricity   PF = 0.99 --- above Nil --- no      If PF \\< 0.95:\n             --- PF**        0.95 target. No     corrective      install / check\n                             APFC action         action needed   APFC panel\n                             required.                           \n\n  4          **Electricity   2088 kVA recorded   Nil --- no MD   If MD exceeds\n             --- MD**        vs 2800 kVA         penalty         sanctioned: review\n                             sanctioned ---                      load scheduling\n                             within limit. No MD                 \n                             penalty.                            \n  ----------------------------------------------------------------------------------"
+  },
+  {
+    "source": "compressor_audit",
+    "section": "8.1 Specific Power Improvement --- Priority Actions",
+    "text": "-   Investigate why specific power (7.26 kW/m\u00b3/min) is above BEE\n    benchmark. The VSD design of the GA30VSD should theoretically\n    perform closer to 5.0 kW/m\u00b3/min --- the gap suggests one or more of\n    the following root causes.\n\n-   Check inlet air filter condition --- a choked inlet filter increases\n    specific power by forcing the compressor to work harder for the same\n    air output. Replace filter element if pressure drop across it\n    exceeds the manufacturer\\'s limit (typically 35--50 mbar).\n\n-   Check compressed air distribution network for leaks --- each\n    undetected leak forces the compressor to run longer and harder. A\n    simple ultrasonic leak detection survey is recommended; leaks\n    typically account for 10--30% of compressor output in plants of this\n    type.\n\n-   Review delivery pressure setting --- confirm that 6.7 kg/cm\u00b2 is the\n    minimum required by all end-use equipment. Every 1 kg/cm\u00b2 reduction\n    saves approximately 6--8% compressor energy. Reducing to 6.0 kg/cm\u00b2\n    (if process allows) would save approximately 5--6 kWh per operating\n    hour.\n\n-   Verify VSD controller pressure band settings --- ensure the setpoint\n    and deadband in the Atlas Copco controller are correctly configured\n    for minimum energy operation at actual process demand."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "8.2 Oil Cooler / Discharge Temperature",
+    "text": "-   Clean oil cooler fins if fouled --- three days recorded discharge\n    temperatures of 100--102\u00b0C (Days 6, 17, 19). Fouled oil cooler\n    raises discharge temperature, degrades oil life, and risks thermal\n    shutdown.\n\n-   Check ventilation in the compressor room --- high ambient\n    temperature is a common cause of elevated discharge temperature in\n    enclosed plant rooms."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "8.3 Electrical / Utility",
+    "text": "-   If power factor is below 0.95: install or upgrade APFC (Automatic\n    Power Factor Correction) panel --- low investment, typically 1--2\n    year payback.\n\n-   If maximum demand exceeds sanctioned limit: stagger equipment\n    startups to avoid MD penalties.\n\n-   Electricity billing is on a kVAh basis at Rs. 6/kVAh. Power Factor\n    recorded at 0.99 --- no APFC action required. Maximum Demand\n    recorded at 2088 kVA against a sanctioned limit of 2800 kVA --- no\n    MD penalty applies."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "8.4 Recommended Next Phase Audit",
+    "text": "To validate the findings of this study and accurately quantify\nrecoverable savings, the following activities are recommended:\n\n-   Install temporary power analyzer for minimum seven days.\n\n-   Conduct ultrasonic compressed-air leak survey.\n\n-   Verify end-use pressure requirements.\n\n-   Measure actual compressor airflow.\n\n-   Compare measured specific power against BEE benchmark.\n\n-   Recalculate annual savings based on measured data."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "9. Conclusion",
+    "text": "The audit has successfully established an operating performance baseline\nfor Air Compressor No. 2 and identified measurable opportunities for\nimproving compressed-air system efficiency Preliminary analysis\nindicates a potential energy-saving opportunity of approximately 55,440\nkWh/year (\u20b94.43 lakh/year), which should be validated through airflow\nand power measurement before implementation.The identified opportunity\nis technically achievable through systematic investigation of leakage\nlosses, pressure optimization, maintenance practices, and compressor\ncontrol settings.\n\nThe compressor operated reliably over the 21-day audit period with a\nconsistent average load factor of 75% and stable delivery pressure of\n6.7 kg/cm\u00b2. The three events of elevated discharge temperature\n(100--102\u00b0C on Days 6, 17, and 19) warrant monitoring and preventive\nmaintenance of the oil cooler system.\n\nThe primary corrective actions recommended are: inlet filter\nmaintenance, compressed air leak detection, delivery pressure\noptimisation, and VSD controller setting verification. These are\nlow-cost, high-return interventions that do not require capital\ninvestment in new equipment.\n\nThis audit establishes a systematic energy monitoring baseline for the\ncompressed air system. Extending the scope to include distribution\nnetwork leak quantification and demand-side audit is recommended as the\nnext phase.\n\nAverage current recorded during the audit was 102 A. Current readings\nwere used as supporting operational data; however, accurate power\nconsumption measurement would require a calibrated power analyzer."
+  },
+  {
+    "source": "compressor_audit",
+    "section": "10. References",
+    "text": "-   Bureau of Energy Efficiency (BEE), Ministry of Power, Government of\n    India --- Energy Audit Guidelines and Manual for Compressed Air\n    Systems.\n\n-   BEE Guide Book 3 --- Electrical Utilities (basis for compressor\n    specific power benchmark of 4.5--5.0 kW/m\u00b3/min).\n\n-   Atlas Copco GA30VSD Technical Datasheet --- Motor Rated Power: 30 kW\n    (40 HP); FAD at 7 bar: 3.10 m\u00b3/min.\n\n-   Plant air compressor operating log, Air Compressor No. 1 GA30VSD, 21\n    days June 2026 (primary data source).\n\n-   Plant electricity bills --- (source for unit rate, power factor, and\n    maximum demand)."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Introduction",
+    "text": "**BOILER ENERGY PERFORMANCE AUDIT REPORT**"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "1. Objective",
+    "text": "This study evaluates the thermal performance of the rice-husk-fired\nboiler by analysing operating data recorded over a 21-day period (1 June\n-- 21 June 2026). The focus areas are flue gas temperature trend, steam\ngeneration consistency, and development of production-normalised energy\nperformance indicators (EnPIs) that can serve as a baseline for future\nmonitoring."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "2. Boiler Description",
+    "text": "--------------------------- -------------------------------------------\n  **Parameter**               **Details**\n\n  **Fuel**                    Rice Husk (Biomass)\n\n  **Boiler Type**             High Pressure Water Tube Boiler\n\n  **Average Steam             13.65 TPH\n  Generation**                \n\n  **Average Steam Pressure**  45.5 kg/cm\u00b2\n\n  **Average Steam             438\u00b0C\n  Temperature**               \n\n  **Audit Period**            1 June 2026 -- 21 June 2026 (21 days)\n  --------------------------- -------------------------------------------"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "3. Data Collected",
+    "text": "The following parameters were recorded daily from boiler log sheets:\n\n-   Superheater outlet pressure (kg/cm\u00b2) and temperature (\u00b0C)\n\n-   Steam flow (TPH)\n\n-   Flue gas exit temperature at ESP inlet (\u00b0C)\n\n-   Feedwater temperature (\u00b0C)\n\n-   Boiler auxiliary power consumption (kW)\n\nAdditional plant data used in this study (sourced from plant records,\nnot independently meter-verified during the audit period):\n\n-   Average rice husk consumption: 66 tonnes/day (plant-stated)\n\n-   Refined oil production: 71 tonnes/day\n\n-   Vanaspati production: 267.4 tonnes/day\n\n-   Total daily production: 338.4 tonnes/day"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "4. Data Recorded (1--21 June 2026) (part 1)",
+    "text": "Table 1 below presents all 21 days of log sheet readings as collected.\n\n  ---------- ------------ -------- --------- --------- --------- ---------- -------------\n  **Date**   **SH Pr.     **SH     **Steam   **Flue    **Feed    **Boiler   **Remarks**\n             (kg/cm\u00b2)**   Temp     Flow      Gas Temp  Water     kW**       \n                          (\u00b0C)**   (TPH)**   (\u00b0C)**    Temp                 \n                                                       (\u00b0C)**               \n\n  01-Jun     45.6         440      14.3      220       165       205.0      \\-\n\n  02-Jun     45.5         440      14.7      200       169.5     205.3      \\-\n\n  03-Jun     45.5         438      15.2      200       100       189.0      \\-\n\n  04-Jun     45.3         440      16.1      211       100       212.7      \\-\n\n  05-Jun     45.0         440      14.0      215       100       271.8      \\-\n\n  06-Jun     45.5         430      13.8      200       100       271.8      \\-\n\n  07-Jun     45.5         439      15.6      200       100       215.9      \\-\n\n  08-Jun     45.6         440      15.7      198.5     100       193.5      \\-\n\n  09-Jun     45.5         440      15.0      190       100       191.0      \\-\n\n  10-Jun     45.4         438      13.8      223       100       185.8      \\-\n\n  11-Jun     45.5         440      13.7      222       101       189.2      \\-\n\n  12-Jun     45.7         436      12.6      222       100       184.3      \\-\n\n  13-Jun     45.4         432      12.5      215       100       187.4      \\-\n\n  14-Jun     45.4         440      12.8      200       100       184.2      \\-\n\n  15-Jun     45.6         438      12.0      220       100       182.0      \\-\n\n  16-Jun     45.5         425      12.8      202       100       182.6      \\-"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "4. Data Recorded (1--21 June 2026) (part 2)",
+    "text": "17-Jun     45.8         436      13.0      189.5     100       183.4      Best day\n                                                                            (lowest FGT)\n\n  18-Jun     45.7         440      13.8      198.6     100       181.8      \\-\n\n  19-Jun     45.5         455      13.4      200       100       180.4      \\-\n\n  20-Jun     45.8         440      13.6      197.5     100       178.8      \\-\n\n  21-Jun     45.0         440      8.3       200       98        175.8      Partial load\n                                                                            / shutdown\n  ---------- ------------ -------- --------- --------- --------- ---------- -------------"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "5.1 Flue Gas Temperature",
+    "text": "The flue gas exit temperature is the primary thermal performance\nindicator analysed in this study.\n\n  --------------------------- ------------------- ------------------------\n  **Parameter**               **Value**           **Remarks**\n\n  **Average Flue Gas Exit     205.9\u00b0C             21-day average\n  Temperature**                                   \n\n  **Best (Lowest) Temperature 189.5\u00b0C             17 June --- own\n  Recorded**                                      demonstrated benchmark\n\n  **Excess over Own Best      16.4\u00b0C              Recoverable,\n  Day**                                           self-demonstrated\n\n  **Indicative Efficiency     \\~0.75%             1% per 22\u00b0C excess ---\n  Loss (BEE rule)**                               indicative only\n  --------------------------- ------------------- ------------------------\n\nThe boiler achieved 189.5\u00b0C on 17 June under normal operating\nconditions, confirming that this lower flue gas temperature is\nattainable. On 20 of the 21 days monitored, flue gas temperature\nexceeded this value, indicating a sustained and recoverable condition\n\\--Potentially attributable to economiser fouling, air preheater\nfouling, excess air operation, combustion variation, or other\nheat-transfer-related factors requiring further investigation\n\nThe 0.75% efficiency loss is estimated using the BEE thumb rule (1%\nefficiency loss per 22\u00b0C excess flue gas temperature). This is a widely\nused indicative rule, not a result of direct efficiency testing. A\nproper boiler efficiency test using the indirect method (as per BEE\nguidelines) with measured fuel GCV, proximate analysis, and flue gas\ncomposition would be required to confirm this figure."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "5.2 Steam Generation",
+    "text": "Average steam generation was 13.65 TPH, resulting in an estimated daily\nsteam output of 327.6 tonnes (13.65 \u00d7 24 hrs). Steam generation remained\nwithin the normal operating range of approximately 12--16 TPH, except\nfor the shutdown event recorded on 21 June."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "5.3 Production-Based Performance Indicators (Baseline KPIs)",
+    "text": "The following energy performance indicators (EnPIs) have been calculated\nto serve as a monitoring baseline. These are derived from plant-stated\nproduction and fuel figures and should be verified against metered data\ngoing forward.\n\n  ------------------------------- --------------- ------------------------\n  **Indicator**                   **Value**       **Basis**\n\n  **Steam per Tonne of Product**  0.97 t / t      327.6 \u00f7 338.4\n                                  product         \n\n  **Rice Husk per Tonne of        201 kg / t      66,000 kg \u00f7 327.6 t\n  Steam**                         steam           \n\n  **Rice Husk per Tonne of        195 kg / t      66,000 kg \u00f7 338.4 t\n  Product**                       product         \n  ------------------------------- --------------- ------------------------\n\n*The rice husk consumption figure (66 t/day) is plant-stated; treat\nderived figures accordingly.*"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "6. Key Findings",
+    "text": "1.  Average flue gas exit temperature over the 21-day monitoring period\n    was 205.9\u00b0C.\n\n2.  The boiler demonstrated a minimum flue gas temperature of 189.5\u00b0C on\n    17 June, confirming lower stack temperatures are achievable under\n    normal operating conditions.\n\n3.  The 16.4\u00b0C gap between the average and the best-demonstrated\n    temperature corresponds to an indicative efficiency loss of \\~0.75%\n    (BEE thumb rule). This is a continuous, recoverable loss --- not an\n    isolated event.\n\n4.  No financial or fuel savings are claimed in this report. The\n    efficiency opportunity is expressed in physical terms only, pending\n    verified fuel metering and proper efficiency testing.\n\n5.  Baseline EnPIs have been established: 0.97 t steam per tonne of\n    product; 195 kg rice husk per tonne of product. These provide a\n    reference for future performance tracking."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 1: Economiser Cleaning",
+    "text": "Inspect and clean economiser tube surfaces at the next planned\nmaintenance shutdown. Soot and ash deposits reduce heat transfer and\ndirectly raise flue gas exit temperature. Schedule on the basis of the\ntemperature trend observed in this report."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 2: Air Preheater Inspection",
+    "text": "Inspect air preheater (APH) surfaces for fouling, tube leakage, ash\naccumulation, and bypass damper condition. Confirm whether an APH is\nfitted and operational."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 3: Excess Air Optimisation",
+    "text": "Review combustion settings and flue gas O\u2082/CO\u2082 readings. High excess air\nindependently raises flue gas temperature and dry flue gas losses,\nseparate from surface fouling."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 4: Install or Verify Fuel Metering",
+    "text": "To enable credible energy accounting and savings verification, install a\ncalibrated rice husk weighbridge or flow meter. The current audit relies\non a plant-stated 66 t/day figure. Without verified fuel consumption,\nneither specific energy consumption nor financial savings can be\nformally claimed."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 5: Conduct Indirect Efficiency Test",
+    "text": "Perform a full indirect boiler efficiency test per BEE guidelines ---\nincluding flue gas analysis (CO\u2082, O\u2082, CO), fuel proximate analysis (GCV,\nmoisture, ash), and radiation/convection loss estimation. This will\nreplace the indicative 0.75% estimate with a verified efficiency figure."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "Recommendation 6: Monthly KPI Tracking",
+    "text": "Track the following indicators monthly:\n\n-   Flue gas exit temperature should be monitored against the\n    demonstrated benchmark of 189.5\u00b0C while maintaining required steam\n    generation and process demand.\n\n```{=html}\n<!-- -->\n```\n-   Rice husk consumption per tonne of steam\n\n-   Rice husk consumption per tonne of product\n\n-   Steam generation per tonne of product"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "8. Limitations and Data Gaps (part 1)",
+    "text": "The following limitations apply to this report and should be addressed\nbefore any savings figure is formally claimed or submitted for energy\naudit compliance purposes:\n\n  -------- ------------------------ -------------------------------------------\n  **\\#**   **Limitation**           **Impact / What Is Needed**\n\n  1        Fuel consumption not     The 66 t/day figure is plant-stated. No\n           independently measured   weighbridge, stock reconciliation, or flow\n                                    meter reading was independently verified.\n                                    All cost and specific consumption\n                                    calculations derived from this figure are\n                                    indicative only.\n\n  2        Fuel GCV not lab-tested  A standard reference GCV of 3200 kcal/kg\n                                    for rice husk is assumed. Actual GCV varies\n                                    significantly with moisture content and\n                                    husk quality. A lab-tested GCV from a\n                                    representative sample is needed for a\n                                    verified efficiency calculation.\n\n  3        No boiler efficiency     The 0.75% efficiency loss is derived from a\n           test conducted           BEE thumb rule, not from a direct\n                                    efficiency test. The indirect efficiency\n                                    method (flue gas analysis, fuel analysis,\n                                    heat loss summation) is needed to confirm\n                                    or replace this estimate."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "8. Limitations and Data Gaps (part 2)",
+    "text": "4        Flue gas temperature is  Other losses --- unburnt carbon,\n           the only heat loss       radiation/convection, blow-down, moisture\n           parameter measured       in fuel, moisture from combustion of\n                                    hydrogen --- are not quantified. The 0.75%\n                                    figure covers dry flue gas loss only.\n\n  5        Manufacturer design flue The benchmark used is the boiler\\'s own\n           gas temperature not      best-demonstrated temperature (189.5\u00b0C),\n           confirmed                which is conservative and fully defensible.\n                                    The design temperature from the O&M manual\n                                    may be lower, which would increase the\n                                    recoverable gap --- but this cannot be\n                                    claimed without the documented design\n                                    figure.\n\n  6        No pre/post measurement  If economiser/APH cleaning is carried out,\n           to verify savings after  a before-and-after flue gas temperature\n           cleaning                 comparison with the same load conditions\n                                    should be recorded to verify the actual\n                                    improvement achieved.\n\n  7        21 June anomaly          Steam flow dropped to 8.3 TPH on 21 June\n                                    due to a logged boiler shutdown. This day\n                                    was retained in the dataset but is not\n                                    representative of normal full-load\n                                    operation.\n  -------- ------------------------ -------------------------------------------"
+  },
+  {
+    "source": "boiler_audit",
+    "section": "9. Conclusion",
+    "text": "Over the 21-day monitoring period, the boiler\\'s average flue gas exit\ntemperature of 205.9\u00b0C exceeded its own best-demonstrated performance of\n189.5\u00b0C (recorded on 17 June) by 16.4\u00b0C. This gap indicates a sustained\nand This gap indicates a sustained opportunity for improvement in boiler\nthermal performance and warrants further investigation.\n\nUsing the BEE indicative rule, this corresponds to approximately 0.75%\nthermal efficiency loss. No financial savings figure has been stated in\nthis report, as the fuel consumption data has not been independently\nverified and no direct efficiency test was conducted during the audit\nperiod.\n\nThe recommended actions --- economiser and APH cleaning, excess air\nreview, fuel metering installation, and periodic KPI tracking --- are\nlow-cost, high-return measures. Their impact should be quantified\nthrough a verified before-and-after measurement exercise."
+  },
+  {
+    "source": "boiler_audit",
+    "section": "10. References",
+    "text": "-   Bureau of Energy Efficiency (BEE), Ministry of Power, Government of\n    India --- Energy Audit Guidelines (basis for the 22\u00b0C / 1%\n    efficiency loss thumb rule).\n\n-   Plant boiler log sheets, 1--21 June 2026 (primary data source).\n\n-   Boiler O&M Manual / Manufacturer Data Sheet --- to be obtained and\n    cited if design flue gas temperature benchmark is to be used."
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 1",
+    "text": "INTERNSHIP ENERGY AUDIT PROJECT\nEnergy Saving Audit\nAir Compressor & Boiler Performance Audit\nAudit Period:  1 June 2026 \u2013 21 June 2026  (21 consecutive days)\nBasis:  Bureau of Energy Efficiency (BEE) Energy Audit Guidelines\nMADE BY :- Prabhnoor kaur(Intern , Me) \nCompressed Air System\nBiomass Boiler\nPerformance Benchmarking"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 2",
+    "text": "AGENDA\nContents\n01\nExecutive Summary\nHeadline findings across both systems\n02\nIntroduction & Audit Approach\nObjectives, scope, and methodology\n03\nAir Compressor Energy Audit\nGA30VSD performance, savings & recommendations\n04\nBoiler Energy Audit\nFlue gas performance, EnPIs & recommendations\n05\nCombined Summary & Roadmap\nFindings, implementation plan & conclusion\nENERGY SAVING AUDIT\n1"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 3",
+    "text": "OVERVIEW\nExecutive Summary\nTwo parallel energy audits were carried out over a common 21-day monitoring window (1\u201321 June 2026): a load-factor and specific-power study on Air Compressor GA30VSD, and a flue-gas thermal performance study on the rice-husk-fired boiler. Both establish a measurement baseline and identify recoverable, low-investment improvement opportunities.\n7.26\nCompressor Specific Power\n(kW/m\u00b3/min) vs. 4.5\u20135.0 BEE benchmark\n~55,440\nkWh/yr indicative excess\ncompressor energy use\n\u20b94.43 L\nIndicative annual saving\nopportunity (compressor)\n16.4\u00b0C\nRecoverable flue-gas temperature\ngap vs. boiler's own best day\n~0.75%\nIndicative boiler thermal\nefficiency loss (BEE thumb rule)\nImportant Caveat\nFigures above are indicative, derived from log-sheet readings, nameplate data and BEE thumb rules \u2014 not from calibrated power/fuel metering or a direct efficiency test. Both reports recommend a validation phase (power analyzer, leak survey, fuel metering, indirect efficiency test) before savings are formally claimed for investment or compliance purposes.\nENERGY SAVING AUDIT\n2"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 4",
+    "text": "INTRODUCTION\nAudit Objectives & Approach\nWhy this audit\nEstablish a measured performance baseline for two major energy-consuming utilities: the compressed-air system and the biomass boiler.\nBenchmark current performance against Bureau of Energy Efficiency (BEE) standards and the equipment's own best-demonstrated performance.\nQuantify indicative energy and cost saving potential where performance falls outside benchmark ranges.\nRecommend practical, low-investment corrective actions that do not require new capital equipment.\nDefine a validation phase \u2014 metering and testing \u2014 needed before savings are formally claimed.\nCommon methodology basis\nDaily log-sheet readings recorded by plant operators for 21 consecutive days (1\u201321 June 2026), from in-plant data \u2014 not independently metered during the audit.\nDaily averages computed from hourly shift readings; nameplate/datasheet specifications used for rated capacity figures.\nPerformance benchmarked against BEE Energy Audit Guidelines and Guide Book 3 \u2014 Electrical Utilities.\nAnnual saving / efficiency-loss estimates are scaled using standard operating-hour assumptions and BEE thumb rules, and flagged for follow-up verification.\nEach system audit follows the same structure: equipment profile \u2192 21-day data \u2192 performance analysis \u2192 findings \u2192 recommendations.\nENERGY SAVING AUDIT\n3"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 5",
+    "text": "A\nAir Compressor Energy Audit\nAtlas Copco GA30VSD \u2014 Load Factor, Specific Power & Benchmarking"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 6",
+    "text": "SECTION A \u00b7 COMPRESSOR\nEquipment Profile\nParameter | Details\nEquipment Name | Air Compressor No. 1 (GA30VSD)\nMake / Model | Atlas Copco GA30VSD\nType | Variable Speed Drive (VSD), Oil-Injected Rotary Screw Compressor\nMotor Rated Power | 30 kW (40 HP)\nFAD \u2014 Free Air Delivery (at 7 bar) | 3.10 m\u00b3/min (51.7 l/s)\nRated Delivery Pressure | 6.7 kg/cm\u00b2 (\u2248 7 bar) \u2014 observed constant\nAn industry guide lists rotary screw VFD compressors with a typical specific power range of kW/m\u00b3/min at full load, which supports using that range as a performance reference | 4.5 \u2013 6.0 kW/m\u00b3/min\nAudit Period | 1 June 2026 \u2013 21 June 2026 (21 consecutive days)\nVSD Advantage\nA Variable Speed Drive compressor matches motor speed to real-time air demand, which is inherently more efficient than fixed-speed machines at part load \u2014 making it a useful candidate for specific-power benchmarking.\nWhy Specific Power Matters\nSpecific Power (kW per m\u00b3/min of delivered air) is the standard BEE metric for compressor efficiency \u2014 lower is better. It normalises power draw against actual air output, enabling fair benchmarking regardless of compressor size.\nSECTION A \u00b7 AIR COMPRESSOR\n4"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 7",
+    "text": "SECTION A \u00b7 COMPRESSOR\nAudit Scope & Methodology\nIn Scope\nAir Compressor GA30VSD \u2014 load factor monitoring, specific power calculation, BEE benchmarking.\nElectricity bill review \u2014 power factor, maximum demand, and unit cost analysis.\nOut of Scope (recommended for follow-on audit)\nOther compressors in the plant.\nProcess-side pneumatic systems.\nCompressed-air distribution network leak quantification.\nMethodology Steps\n1\nDaily compressor log readings recorded for 21 consecutive days from in-plant operator log books.\n2\nParameters logged each day: average load %, average current (A), delivery pressure (kg/cm\u00b2), average discharge temperature (\u00b0C).\n3\nNameplate data obtained: Motor Rated Power = 30 kW; FAD at 7 bar = 3.10 m\u00b3/min.\n4\nSpecific Power = (Rated kW \u00d7 Avg Load% \u00f7 100) \u00f7 FAD (m\u00b3/min).\n5\nResult benchmarked: 4.5\u20136.0 kW/m\u00b3/min = good; above 5.5 = significant efficiency gap.\n6\nAnnual saving estimated using 7,920 operating hours/year and the applicable electricity unit rate.\nSECTION A \u00b7 AIR COMPRESSOR\n5"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 8",
+    "text": "SECTION A \u00b7 COMPRESSOR\n21-Day Operating Trend (June 2026)\nAverage Load (%)\nAverage Current Draw (A)\n75%\nAverage Load Factor\n102 A\nAverage Current\n6.7 kg/cm\u00b2\nConstant Delivery Pressure\n96\u00b0C\nAverage Discharge Temp.\nSECTION A \u00b7 AIR COMPRESSOR\n6"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 9",
+    "text": "SECTION A \u00b7 COMPRESSOR\n21-Day Operating Log \u2014 GA30VSD (June 2026)\nDay | Load % | Amps | Del. Pr. | Disch. T (\u00b0C) | Remarks\nDay 1 | 78 | 104 | 6.7 | 98 | \nDay 2 | 83 | 109 | 6.7 | 95 | \nDay 3 | 77 | 101 | 6.7 | 97 | \nDay 4 | 75 | 99 | 6.7 | 93 | \nDay 5 | 73 | 109 | 6.7 | 95 | Power cut\nDay 6 | 78 | 110 | 6.7 | 100 | Blow moulding\nDay 7 | 77 | 107 | 6.7 | 95 | \nDay 8 | 76 | 109 | 6.7 | 96 | \nDay 9 | 75 | 109 | 6.7 | 95 | \nDay 10 | 77 | 100 | 6.7 | 96 | \nDay 11 | 69 | 97 | 6.7 | 95 | Compressor off\nDay | Load % | Amps | Del. Pr. | Disch. T (\u00b0C) | Remarks\nDay 12 | 78 | 110 | 6.7 | 96 | \nDay 13 | 68 | 98 | 6.7 | 96 | \nDay 14 | 73 | 89 | 6.7 | 93 | \nDay 15 | 75 | 106 | 6.7 | 97 | \nDay 16 | 74 | 107 | 6.7 | 96 | \nDay 17 | 75 | 102 | 6.7 | 100 | \nDay 18 | 78 | 95 | 6.7 | 96 | \nDay 19 | 75 | 102 | 6.7 | 102 | \nDay 20 | 75 | 88 | 6.7 | 94 | Power cut\nDay 21 | 68 | 98 | 6.7 | 96 | \nAVG | 75% | 102A | 6.7 | 96\u00b0C | \nSECTION A \u00b7 AIR COMPRESSOR"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 10",
+    "text": "SECTION A \u00b7 COMPRESSOR\nSpecific Power Calculation\nSpecific Power (kW/m\u00b3/min) = (Rated Motor kW \u00d7 Avg Load% \u00f7 100) \u00f7 FAD (m\u00b3/min)\nParameter | Value | Source / Basis\nMotor Rated Power | 30 kW (40 HP) | Atlas Copco GA30VSD nameplate\nAverage Load % (21-day avg.) | 75% | From 21-day operating log\nEstimated Power Drawn | 30 \u00d7 0.75 = 22.5 kW | Calculated\nRated FAD (at ~7 bar) | 3.10 m\u00b3/min | Atlas Copco GA30VSD datasheet\nSpecific Power | 22.5 \u00f7 3.10 = 7.26 kW/m\u00b3/min | Calculated\nAn industry guide lists rotary screw VFD compressors with a typical specific power range of about kW/m\u00b3/min at full load, which supports using that range as a performance reference | 4.5 \u2013 6.0 kW/m\u00b3/min | https://industrialmonitordirect.com/blogs/knowledgebase/calculating-compressed-air-production-cost-per-cubic-meter\nGap above Benchmark (vs. 5.0) | 7.26 \u2212 5.0 = 2.26 kW/m\u00b3/min | Above benchmark \u2014 action required\n7.26\nkW/m\u00b3/min \u2014 Calculated Specific Power\nvs.\n4.5\u20136.0\nkW/m\u00b3/min \n48% above the top of the benchmark range\nSECTION A \u00b7 AIR COMPRESSOR\n7"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 11",
+    "text": "SECTION A \u00b7 COMPRESSOR\nEnergy & Cost Saving Opportunity\nAn indicative specific power of 7.26 kW/m\u00b3/min was estimated using average load factor and nameplate FAD. The gap above the BEE benchmark corresponds to an estimated excess power draw under observed operating conditions \u2014 a realistic improvement opportunity, not an immediate guaranteed reduction in electricity cost.\n~7.0 kW\nEstimated excess power draw\n7,920 hrs/yr\nCompressor operating\nschedule used for scaling\n~55,440 kWh/yr\nIndicative annual excess\nenergy consumption\n\u20b94.43 Lakh/yr\nIndicative annual cost\nsaving opportunity\nTreat as an Improvement Opportunity, Not a Confirmed Saving\nThis figure is derived from average load factor and nameplate data, not calibrated power and airflow measurement. Actual compressor efficiency should be verified with a power analyzer and measured airflow before the saving is used for investment or compliance decisions.\nSECTION A \u00b7 AIR COMPRESSOR\n8"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 12",
+    "text": "SECTION A \u00b7 COMPRESSOR\nKey Observations\nAverage load factor of 75% over 21 days. The VSD design allows the motor to match speed to demand \u2014 inherently more efficient than fixed-speed machines at part load.\nCalculated specific power of 7.26 kW/m\u00b3/min is significantly above the BEE benchmark of 4.5\u20135.0 \u2014 indicating the compressor consumes more power per unit of air delivered than the standard, warranting root-cause investigation.\nDelivery pressure remained constant at 6.7 kg/cm\u00b2 across all 21 days, indicating stable process demand. Any excess pressure above actual process needs directly raises specific power.\nAverage discharge temperature of 96\u00b0C is within normal range. Three days (6, 17, 19) recorded 100\u2013102\u00b0C \u2014 possible oil-cooler fouling or high ambient conditions to monitor.\nTwo power-cut events (Days 5, 20) and one power-loss shutdown (Day 11) were recorded \u2014 external events that do not affect the efficiency assessment.\nDay 6 (blow-moulding activity) showed higher current draw (110 A), consistent with elevated compressed-air demand from that process.\nSECTION A \u00b7 AIR COMPRESSOR\n9"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 13",
+    "text": "SECTION A \u00b7 COMPRESSOR\nPotential Root Cause Analysis\nObservation | Possible Cause | Operational Impact | Priority\nSpecific power above benchmark | Air leakage in distribution network | Increased compressor runtime | High\nSpecific power above benchmark | Choked inlet air filter | Higher power consumption | High\nConstant operating pressure | Pressure setpoint higher than actual process requirement | Excess energy consumption | High\nElevated discharge temperature | Cooler fouling or poor ventilation | Reduced efficiency & equipment life | Medium\nVariable current demand | Process demand fluctuations | Normal operation | Low\nPriority:\nHigh\nMedium\nLow\nThree of five identified causes are rated High priority \u2014 all point toward the same corrective theme: verify and reduce air loss and resistance upstream and downstream of the compressor before assuming the machine itself is underperforming.\nSECTION A \u00b7 AIR COMPRESSOR\n10"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 14",
+    "text": "SECTION A \u00b7 COMPRESSOR\nElectricity Bill Analysis\nRate per Unit\n\u20b96 / kVAh\nBilling on kVAh basis\nPower Factor\n0.99\nTarget > 0.95 \u2014 No APFC action required\nMaximum Demand\n2,088 kVA\nvs. 2,800 kVA sanctioned \u2014 within limit\nWhat this means\nPower Factor of 0.99 is comfortably above the 0.95 target \u2014 no Automatic Power Factor Correction (APFC) action is required at present. (Below 0.90 would trigger a billing penalty and an APFC recommendation.)\nMaximum Demand recorded at 2,088 kVA against a sanctioned limit of 2,800 kVA \u2014 well within limit, with no MD penalty applicable.\nThese two parameters are currently healthy; the priority improvement opportunity in this audit lies with compressor specific power, not the electrical utility metrics.\nSECTION A \u00b7 AIR COMPRESSOR\n11"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 15",
+    "text": "SECTION A \u00b7 COMPRESSOR\nRecommendations\nPriority Actions \u2014 Specific Power\nCheck inlet air filter condition. Replace if pressure drop exceeds 35\u201350 mbar \u2014 a choked filter forces the compressor to work harder for the same air output.\nConduct an ultrasonic compressed-air leak survey. Undetected leaks typically account for 10\u201330% of compressor output in plants of this type.\nReview the delivery pressure setpoint. Every 1 kg/cm\u00b2 reduction saves ~6\u20138% compressor energy; reducing 6.7\u21926.0 kg/cm\u00b2 (if process allows) saves ~5\u20136 kWh per operating hour.\nVerify VSD controller pressure-band settings \u2014 confirm setpoint and deadband are configured for minimum-energy operation at actual process demand.\nMaintenance & Electrical\nClean oil cooler fins if fouled \u2014 raised discharge temp degrades oil life and risks thermal shutdown.\nCheck compressor-room ventilation \u2014 high ambient temperature is a common cause of elevated discharge temperature.\nNext-Phase Validation\nInstall a temporary power analyzer for minimum 7 days.\nConduct ultrasonic leak survey & verify end-use pressure needs.\nMeasure actual airflow; recompute specific power against BEE benchmark and recalculate annual savings.\nSECTION A \u00b7 AIR COMPRESSOR\n12"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 16",
+    "text": "B\nBoiler Energy Audit\nRice-Husk Fired Boiler \u2014 Flue Gas Performance & Energy Indicators"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 17",
+    "text": "SECTION B \u00b7 BOILER\nEquipment Profile & Data Collected\nParameter | Details\nFuel | Rice Husk (Biomass)\nBoiler Type | High Pressure Water Tube Boiler\nAverage Steam Generation | 13.65 TPH\nAverage Steam Pressure | 45.5 kg/cm\u00b2\nAverage Steam Temperature | 438\u00b0C\nAudit Period:  1 June 2026 \u2013 21 June 2026 (21 days)\nParameters Logged Daily\nSuperheater outlet pressure (kg/cm\u00b2) and temperature (\u00b0C)\nSteam flow (TPH)\nFlue gas exit temperature at ESP inlet (\u00b0C)\nFeedwater temperature (\u00b0C)\nBoiler auxiliary power consumption (kW)\nAdditional Plant Data (plant-stated)\n66 t/day\nRice Husk Consumption\n71 t/day\nRefined Oil Production\n267.4 t/day\nVanaspati Production\n338.4 t/day\nTotal Daily Production\nSECTION B \u00b7 BOILER\n13"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 18",
+    "text": "SECTION B \u00b7 BOILER\n21-Day Flue Gas Temperature Trend\n205.9\u00b0C\n21-Day Average\n189.5\u00b0C\nBest Day (17 June)\n16.4\u00b0C\nRecoverable Gap\nOn 20 of the 21 days monitored, flue gas temperature exceeded the boiler's own demonstrated best (189.5\u00b0C, 17 June) \u2014 a sustained, recoverable pattern, not an isolated event.\nSECTION B \u00b7 BOILER\n14"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 19",
+    "text": "SECTION B \u00b7 BOILER\n21-Day Operating Log \u2014 Boiler (June 2026)\n\u2605 17-Jun in green = best day (lowest FGT: 189.5\u00b0C) | FGT = Flue Gas Temp | FWT = Feed Water Temp | SH = Superheater\nDate | SH Pr. | SH T(\u00b0C) | Steam (TPH) | FGT (\u00b0C) | FW T(\u00b0C) | Boiler kW\n01-Jun | 45.6 | 440 | 14.3 | 220 | 165 | 205.0\n02-Jun | 45.5 | 440 | 14.7 | 200 | 169.5 | 205.3\n03-Jun | 45.5 | 438 | 15.2 | 200 | 100 | 189.0\n04-Jun | 45.3 | 440 | 16.1 | 211 | 100 | 212.7\n05-Jun | 45.0 | 440 | 14.0 | 215 | 100 | 271.8\n06-Jun | 45.5 | 430 | 13.8 | 200 | 100 | 271.8\n07-Jun | 45.5 | 439 | 15.6 | 200 | 100 | 215.9\n08-Jun | 45.6 | 440 | 15.7 | 198.5 | 100 | 193.5\n09-Jun | 45.5 | 440 | 15.0 | 190 | 100 | 191.0\n10-Jun | 45.4 | 438 | 13.8 | 223 | 100 | 185.8\n11-Jun | 45.5 | 440 | 13.7 | 222 | 101 | 189.2\nDate | SH Pr. | SH T(\u00b0C) | Steam (TPH) | FGT (\u00b0C) | FW T(\u00b0C) | Boiler kW\n12-Jun | 45.7 | 436 | 12.6 | 222 | 100 | 184.3\n13-Jun | 45.4 | 432 | 12.5 | 215 | 100 | 187.4\n14-Jun | 45.4 | 440 | 12.8 | 200 | 100 | 184.2\n15-Jun | 45.6 | 438 | 12.0 | 220 | 100 | 182.0\n16-Jun | 45.5 | 425 | 12.8 | 202 | 100 | 182.6\n17-Jun\u2605 | 45.8 | 436 | 13.0 | 189.5 | 100 | 183.4\n18-Jun | 45.7 | 440 | 13.8 | 198.6 | 100 | 181.8\n19-Jun | 45.5 | 455 | 13.4 | 200 | 100 | 180.4\n20-Jun | 45.8 | 440 | 13.6 | 197.5 | 100 | 178.8\n21-Jun | 45.0 | 440 | 8.3 | 200 | 98 | 175.8\nAVG | 45.5 | 438 | 13.65 | 205.9 | 101 | 195.7\nSECTION B \u00b7 BOILER"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 20",
+    "text": "SECTION B \u00b7 BOILER\nPerformance Analysis & Efficiency Loss\nParameter | Value | Remarks\nAverage Flue Gas Exit Temperature | 205.9\u00b0C | 21-day average\nBest (Lowest) Temperature Recorded | 189.5\u00b0C | 17 June \u2014 own demonstrated benchmark\nExcess over Own Best Day | 16.4\u00b0C | Recoverable, self-demonstrated\nIndicative Efficiency Loss (BEE rule) | ~0.75% | 1% per 22\u00b0C excess \u2014 indicative only\nPossible Contributing Factors\nEconomiser fouling\nAir preheater fouling\nExcess air operation\nCombustion variation or other heat-transfer-related factors requiring further investigation\nIndicative, Not a Direct Test Result\nThe 0.75% figure is estimated using the BEE thumb rule (1% efficiency loss per 22\u00b0C excess flue gas temperature) \u2014 a widely used indicative rule, not a result of direct efficiency testing. A proper indirect-method boiler efficiency test (measured fuel GCV, proximate analysis, flue gas composition per BEE guidelines) would be required to confirm this figure.\nSECTION B \u00b7 BOILER\n15"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 21",
+    "text": "SECTION B \u00b7 BOILER\nProduction-Based Energy Performance Indicators\nSteam generation averaged 13.65 TPH, giving an estimated daily output of 327.6 tonnes (13.65 \u00d7 24 hrs) \u2014 within the normal operating range of ~12\u201316 TPH, except for the shutdown event on 21 June. The following baseline EnPIs were derived from plant-stated production and fuel figures and should be verified against metered data going forward.\nIndicator | Value | Basis\nSteam per Tonne of Product | 0.97 t / t product | 327.6 \u00f7 338.4\nRice Husk per Tonne of Steam | 201 kg / t steam | 66,000 kg \u00f7 327.6 t\nRice Husk per Tonne of Product | 195 kg / t product | 66,000 kg \u00f7 338.4 t\nWhy Baseline EnPIs Matter\nThese indicators give the plant a reference point for tracking thermal and fuel efficiency month-to-month, independent of absolute production volume \u2014 a more meaningful comparison than raw fuel consumption alone.\n* The rice husk consumption figure (66 t/day) is plant-stated; treat derived figures accordingly (its an average of 21 days ) \nSECTION B \u00b7 BOILER\n16"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 22",
+    "text": "SECTION B \u00b7 BOILER\nKey Findings\n1\nAverage flue gas exit temperature over the 21-day monitoring period was 205.9\u00b0C.\n2\nThe boiler demonstrated a minimum flue gas temperature of 189.5\u00b0C on 17 June, confirming that lower stack temperatures are achievable under normal operating conditions.\n3\nThe 16.4\u00b0C gap between the average and the best-demonstrated temperature corresponds to an indicative efficiency loss of ~0.75% (BEE thumb rule) \u2014 a continuous, recoverable loss, not an isolated event.\n4\nNo financial or fuel savings are claimed in this report. The efficiency opportunity is expressed in physical terms only, pending verified fuel metering and proper efficiency testing.\n5\nBaseline EnPIs have been established: 0.97 t steam per tonne of product; 195 kg rice husk per tonne of product \u2014 a reference for future performance tracking.\nSECTION B \u00b7 BOILER\n17"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 23",
+    "text": "SECTION B \u00b7 BOILER\nRecommendations\n1. Economiser Cleaning\nInspect and clean economiser tube surfaces at the next planned maintenance shutdown \u2014 soot and ash deposits reduce heat transfer and directly raise flue gas exit temperature.\n2. Air Preheater Inspection\nInspect APH surfaces for fouling, tube leakage, ash accumulation, and bypass damper condition; confirm whether an APH is fitted and operational.\n3. Excess Air Optimisation\nReview combustion settings and flue gas O\u2082/CO\u2082 readings \u2014 high excess air independently raises flue gas temperature and dry flue gas losses.\n4. Install / Verify Fuel Metering\nInstall a calibrated rice-husk weighbridge or flow meter. Without verified fuel consumption, neither specific energy consumption nor financial savings can be formally claimed.\n5. Conduct Indirect Efficiency Test\nFull indirect boiler efficiency test per BEE guidelines \u2014 flue gas analysis, fuel proximate analysis, radiation/convection loss estimation \u2014 to replace the indicative 0.75% estimate.\n6. Monthly KPI Tracking\nTrack flue gas temp vs. the 189.5\u00b0C benchmark, rice husk per tonne of steam/product, and steam per tonne of product on a monthly basis.\nSECTION B \u00b7 BOILER\n18"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 24",
+    "text": "SECTION B \u00b7 BOILER\nLimitations & Data Gaps\nThese limitations apply to this report and should be addressed before any savings figure is formally claimed or submitted for energy audit compliance purposes."
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "| Limitation | Impact / What Is Needed",
+    "text": "1 | Fuel consumption not independently measured | 66 t/day is plant-stated \u2014 no weighbridge or flow-meter verification. Cost and SEC figures are indicative only.\n2 | Fuel GCV not lab-tested | Standard reference GCV of 3,200 kcal/kg assumed; actual GCV varies with moisture/quality. Lab-tested GCV needed.\n3 | No boiler efficiency test conducted | 0.75% loss is from the BEE thumb rule, not a direct test. Indirect-method test required to confirm.\n4 | Flue gas temp. is the only heat-loss parameter measured | Unburnt carbon, radiation/convection, blow-down, and fuel-moisture losses are not quantified.\n5 | Manufacturer design flue gas temp. not confirmed | Benchmark used is the boiler's own best day (189.5\u00b0C) \u2014 conservative; design figure may show a larger gap.\n6 | No pre/post measurement after cleaning | A before/after flue gas temperature comparison at the same load is needed to verify actual improvement.\n7 | 21 June anomaly | Steam flow dropped to 8.3 TPH due to a logged shutdown \u2014 retained in dataset but not representative.\nSECTION B \u00b7 BOILER\n19"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 25",
+    "text": "C\nCombined Summary & Roadmap\nFindings, Implementation Plan & Conclusion"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 26",
+    "text": "SECTION C \u00b7 SUMMARY\nCombined Summary of Findings\nSystem | Key Finding | Indicative Opportunity | Status\nAir Compressor\n(GA30VSD) | Specific power 7.26 kW/m\u00b3/min vs. 4.5\u20135.0 BEE benchmark | ~55,440 kWh/yr\n(~\u20b94.43 lakh/yr) | Needs validation \u2014 power analyzer + leak survey\nBoiler\n(Rice Husk) | Flue gas temp. 205.9\u00b0C average vs. 189.5\u00b0C own best day | ~0.75% indicative\nefficiency loss | Needs fuel metering + indirect efficiency test\nElectricity\nUtility | Power Factor 0.99; Max. Demand 2,088 / 2,800 kVA sanctioned | No penalty currently\napplicable | Continue routine monitoring\nBoth systems show a measurable, low-cost-to-address performance gap. Neither figure should be treated as a confirmed financial saving until verified by calibrated measurement \u2014 see roadmap on the next slide.\nSECTION C \u00b7 SUMMARY\n20"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 27",
+    "text": "SECTION C \u00b7 SUMMARY\nImplementation Roadmap\n0\u20131 Month\nImmediate\nInspect & replace inlet air filter if pressure drop exceeds limit\nClean compressor oil cooler fins\nReview VSD controller pressure-band setpoint\nVisual inspection of economiser & air preheater\n1\u20133 Months\nShort-Term\nUltrasonic compressed-air leak survey\nInstall temporary power analyzer (min. 7 days)\nTrial delivery-pressure optimisation\nCombustion O\u2082/CO\u2082 excess-air check\n3\u20136 Months\nNext-Phase Validation\nInstall rice-husk weighbridge / flow meter\nConduct indirect boiler efficiency test (BEE method)\nRecalculate validated annual savings\nExtend audit to distribution network & demand side\nSECTION C \u00b7 SUMMARY\n21"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 28",
+    "text": "SECTION C \u00b7 SUMMARY\nConclusion\nAir Compressor\nEstablished an operating performance baseline; identified a potential energy-saving opportunity of ~55,440 kWh/year (~\u20b94.43 lakh/year), to be validated through airflow and power measurement before implementation.\nOperated reliably with a consistent average load factor of 75% and stable delivery pressure of 6.7 kg/cm\u00b2.\nPrimary corrective actions \u2014 inlet filter maintenance, leak detection, pressure optimisation, VSD controller verification \u2014 are low-cost, high-return, and require no capital investment.\nBoiler\nAverage flue gas temperature of 205.9\u00b0C exceeded the boiler's own best-demonstrated 189.5\u00b0C by 16.4\u00b0C \u2014 a sustained, recoverable opportunity warranting further investigation.\nIndicative ~0.75% thermal efficiency loss (BEE rule); no financial savings figure is stated, as fuel data was not independently verified and no direct efficiency test was conducted.\nRecommended actions \u2014 economiser/APH cleaning, excess-air review, fuel metering, periodic KPI tracking \u2014 are low-cost and high-return; impact should be quantified via verified before/after measurement.\nBoth audits establish a systematic energy-monitoring baseline and point to practical, low-investment corrective actions. Extending the scope to distribution-network leak quantification, demand-side audit, and verified fuel/efficiency testing is recommended as the next phase.\nSECTION C \u00b7 SUMMARY\n22"
+  },
+  {
+    "source": "energy_saving_ppt",
+    "section": "Slide 29",
+    "text": "SECTION C \u00b7 SUMMARY\nReferences\nCompressor Audit\nBureau of Energy Efficiency (BEE), Ministry of Power, Government of India \u2014 Energy Audit Guidelines and Manual for Compressed Air Systems.\nBEE Guide Book 3 \u2014 Electrical Utilities (basis for compressor specific-power )\nAtlas Copco GA30VSD Technical Datasheet \u2014 Motor Rated Power 30 kW (40 HP); FAD at 7 bar 3.10 m\u00b3/min.\nPlant air compressor operating log, GA30VSD, 21 days, June 2026 (primary data source).\nPlant electricity bills \u2014 source for unit rate, power factor, and maximum demand.\n. https://industrialmonitordirect.com/blogs/knowledgebase/calculating-compressed-air-production-cost-per-cubic-meter\nBoiler Audit\nBureau of Energy Efficiency (BEE), Ministry of Power, Government of India \u2014 Energy Audit Guidelines (basis for the 22\u00b0C / 1% efficiency-loss thumb rule).\nPlant boiler log sheets, 1\u201321 June 2026 (primary data source).\nSECTION C \u00b7 SUMMARY\n23"
+  }
+]

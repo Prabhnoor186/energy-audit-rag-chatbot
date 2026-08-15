@@ -1,0 +1,63 @@
+name: CD - Deploy to AWS (manual)
+
+# UNLIKE ci.yml, this does NOT run automatically on push. It only runs when
+# YOU manually click "Run workflow" in the GitHub Actions tab. This is
+# deliberate: it deploys real, billable AWS infrastructure (Lambda, API
+# Gateway via Terraform), and we don't want that happening automatically
+# just because you pushed a commit.
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "deploy" to confirm you want to create real AWS resources'
+        required: true
+
+jobs:
+  deploy:
+    name: Terraform apply
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'deploy'
+    steps:
+      - name: Check out the repo code
+        uses: actions/checkout@v4
+
+      - name: Set up Python (for packaging Lambda)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build Lambda package
+        run: |
+          mkdir -p lambda_package
+          pip install opensearch-py requests -t lambda_package \
+            --platform manylinux2014_x86_64 --python-version 3.12 \
+            --implementation cp --only-binary=:all:
+          cp lambda_function.py lambda_package/
+          cd lambda_package && zip -r ../lambda_package.zip .
+
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9.0"
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-north-1
+        # These secrets are stored in your GitHub repo settings
+        # (Settings > Secrets and variables > Actions) - never committed
+        # to code. Same credentials you already use locally via `aws configure`.
+
+      - name: Terraform init
+        run: terraform init
+
+      - name: Terraform apply
+        run: terraform apply -auto-approve
+        # NOTE: this does NOT create the OpenSearch NextGen collection itself
+        # (recall: Terraform doesn't support that yet) - you'd still run
+        # those two AWS CLI commands separately, same as you've been doing.
+
+      - name: Show the API endpoint
+        run: terraform output api_endpoint

@@ -1,0 +1,69 @@
+<svg width="1000" height="480" viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="480" fill="#0d1117"/>
+  <text x="500" y="35" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" font-weight="bold" fill="#ffffff">RAG Chatbot Architecture</text>
+
+  <!-- Row 1: Data prep -->
+  <rect x="30" y="70" width="150" height="60" rx="8" fill="#1f2937" stroke="#4b5563"/>
+  <text x="105" y="95" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Audit Reports</text>
+  <text x="105" y="113" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">docx + pptx</text>
+
+  <rect x="230" y="70" width="150" height="60" rx="8" fill="#1f2937" stroke="#4b5563"/>
+  <text x="305" y="95" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Chunking</text>
+  <text x="305" y="113" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">69 section chunks</text>
+
+  <rect x="430" y="70" width="150" height="60" rx="8" fill="#0d3b66" stroke="#1e5f8f"/>
+  <text x="505" y="95" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Bedrock</text>
+  <text x="505" y="113" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">Titan Embed V2</text>
+
+  <rect x="630" y="70" width="150" height="60" rx="8" fill="#0f4c3a" stroke="#1e7a5c"/>
+  <text x="705" y="95" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">OpenSearch</text>
+  <text x="705" y="113" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">Serverless NextGen</text>
+
+  <line x1="180" y1="100" x2="228" y2="100" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="100" x2="428" y2="100" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="580" y1="100" x2="628" y2="100" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="500" y="160" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#6b7280" font-style="italic">One-time setup: build the knowledge base</text>
+
+  <!-- Row 2: Live query flow -->
+  <rect x="30" y="220" width="150" height="60" rx="8" fill="#1f2937" stroke="#4b5563"/>
+  <text x="105" y="245" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Streamlit UI</text>
+  <text x="105" y="263" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">chat interface</text>
+
+  <rect x="230" y="220" width="150" height="60" rx="8" fill="#4a1942" stroke="#7a2d6e"/>
+  <text x="305" y="245" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">API Gateway</text>
+  <text x="305" y="263" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">HTTP API /ask</text>
+
+  <rect x="430" y="220" width="150" height="60" rx="8" fill="#5a3a12" stroke="#8a5c1e"/>
+  <text x="505" y="245" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Lambda</text>
+  <text x="505" y="263" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">orchestrator</text>
+
+  <rect x="630" y="220" width="150" height="60" rx="8" fill="#0d3b66" stroke="#1e5f8f"/>
+  <text x="705" y="245" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#e5e7eb" font-weight="bold">Bedrock</text>
+  <text x="705" y="263" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#9ca3af">Nova Micro (answer)</text>
+
+  <line x1="180" y1="250" x2="228" y2="250" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="250" x2="428" y2="250" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="580" y1="250" x2="628" y2="250" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Lambda also talks to OpenSearch -->
+  <line x1="505" y1="220" x2="505" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="505" y1="150" x2="705" y2="150" stroke="#555" stroke-width="1.5"/>
+  <line x1="705" y1="150" x2="705" y2="128" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="605" y="142" text-anchor="middle" font-family="Segoe UI, Arial" font-size="10" fill="#6b7280">search top-k chunks</text>
+
+  <text x="500" y="315" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#6b7280" font-style="italic">Live flow: every question triggers this chain</text>
+
+  <!-- Answer path back -->
+  <path d="M780 260 C 850 260, 850 350, 500 350 C 200 350, 150 350, 105 282" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+  <text x="500" y="375" text-anchor="middle" font-family="Segoe UI, Arial" font-size="11" fill="#3b82f6">answer + sources returned to chat</text>
+
+  <!-- Legend -->
+  <text x="30" y="440" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Stack: Terraform (IaC) · AWS Lambda · API Gateway (HTTP API) · OpenSearch Serverless NextGen · Amazon Bedrock (Titan Embed V2 + Nova Micro) · Streamlit</text>
+</svg>

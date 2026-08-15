@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+
+# Lambda packaging
+lambda_package/
+lambda_package.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Local test artifacts
+response.json
+zip_check/
+
+# OS / editor
+.DS_Store
+.vscode/
