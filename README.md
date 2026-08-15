@@ -28,6 +28,7 @@ Example questions:
 - "What is the price of a new industrial boiler?" — Out of scope; the chatbot correctly states that this information is not available in the source documents.
 
 ## Architecture
+![Architecture](architecture.svg)
 
 ### One-Time Setup
 
